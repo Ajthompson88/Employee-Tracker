@@ -1,11 +1,13 @@
 # Employee Tracker
 
+## Description
 A command-line interface (CLI) application for managing a company's employee database, built with Node.js, Inquirer, and PostgreSQL. This app allows you to view, add, and update departments, roles, and employees, meeting all the specified acceptance criteria for an employee tracking system.
 
 ---
 
 ## Table of Contents
 
+- [Description](#description)
 - [Acceptance Criteria](#acceptance-criteria)  
 - [Demo Video](#demo-video)  
 - [Installation](#installation)  
@@ -50,3 +52,9 @@ Watch the walkthrough video demonstrating all functionality: [Insert Walkthrough
    ```bash
    git clone https://github.com/yourusername/employee-tracker.git
    cd employee-tracker
+
+---
+
+## License
+
+This project is licensed under the terms of the [MIT License](./LICENSE).
