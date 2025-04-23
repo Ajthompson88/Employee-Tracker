@@ -9,7 +9,8 @@ A command-line interface (CLI) application for managing a company's employee dat
 
 - [Description](#description)
 - [Acceptance Criteria](#acceptance-criteria)  
-- [Demo Video](#demo-video)  
+- [Screenshots](#screenshots)  
+- [Walkthrough Video](#walkthrough-video)
 - [Installation](#installation)  
 - [Usage](#usage)  
 - [Project Structure](#project-structure)  
@@ -40,18 +41,79 @@ A command-line interface (CLI) application for managing a company's employee dat
 
 ---
 
-## Demo Video
+## Screenshots
+ 
+![View All Departments](./assets/viewalldepts.png)
 
-Watch the walkthrough video demonstrating all functionality: [Insert Walkthrough Video Link](#)
+![View All Departments](./assets/viewallroles.png)
+
+![View All Departments](./assets/viewallemployees.png)
+
+## Walkthrough Video
+
+Download or play the demo here:
+
+[▶️ View the demo video (MP4)](./assets/Employee_Tracker.mp4)
 
 ---
 
 ## Installation
 
 1. Clone the repository:
-   ```bash
+  ```
    git clone https://github.com/yourusername/employee-tracker.git
+
    cd employee-tracker
+
+   cp .env.example .env
+
+   npm install or npm i
+
+   npm run create
+
+   npm run seed
+
+   npm start
+
+
+  
+---
+## Usage
+Show how to actually run and interact with the application.  
+
+- **Launch** command (`npm start` or `npm run dev`)  
+- **Walkthrough** of the menu options  
+- **Example** screenshots or code snippets demonstrating one or two flows  
+
+```
+Start the CLI app:
+
+npm start
+```
+## Technologies
+
+List the main tools, libraries, and languages used.  
+
+- **Node.js** v16+  
+- **Inquirer** v8.2.4 (for CLI prompts)  
+- **pg** (node-postgres) for database access  
+- **PostgreSQL** (database engine)  
+- **dotenv** (environment variable management)  
+- **console.table** (formatted console output)  
+
+---
+
+## Contributing
+
+Tell others how they can help improve your project. At minimum:
+
+- **Fork** the repo  
+- **Create** a feature branch (`git checkout -b feature/name`)  
+- **Commit** your changes (`git commit -m "Add feature"`)  
+- **Push** to your branch (`git push origin feature/name`)  
+- **Open** a Pull Request describing your change  
+
+You can also mention coding style, testing guidelines, or a code of conduct if you have one.
 
 ---
 

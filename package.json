@@ -5,8 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node lid/queries.js",
-    "dev": "nodemon lid/queries.js",
+    "start": "node lib/queries.js",
+    "dev": "nodemon lib/queries.js",
     "seed": "psql -U postgres -d employee_db -f db/seed.sql"
   },
   "repository": {
@@ -16,7 +16,7 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "type": "commonjs",
+  "type": "module",
   "bugs": {
     "url": "https://github.com/Ajthompson88/Employee-Tracker/issues"
   },
