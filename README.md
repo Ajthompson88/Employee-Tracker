@@ -74,25 +74,12 @@ Download or play the demo here:
    npm run seed
 
    npm start
-
-
-  
----
-## Usage
-Show how to actually run and interact with the application.  
-
-- **Launch** command (`npm start` or `npm run dev`)  
-- **Walkthrough** of the menu options  
-- **Example** screenshots or code snippets demonstrating one or two flows  
-
 ```
 Start the CLI app:
 
 npm start
 ```
-## Technologies
-
-List the main tools, libraries, and languages used.  
+## Technologies 
 
 - **Node.js** v16+  
 - **Inquirer** v8.2.4 (for CLI prompts)  
@@ -105,15 +92,13 @@ List the main tools, libraries, and languages used.
 
 ## Contributing
 
-Tell others how they can help improve your project. At minimum:
+You can contribute to this project by following the steps below:
 
 - **Fork** the repo  
 - **Create** a feature branch (`git checkout -b feature/name`)  
 - **Commit** your changes (`git commit -m "Add feature"`)  
 - **Push** to your branch (`git push origin feature/name`)  
 - **Open** a Pull Request describing your change  
-
-You can also mention coding style, testing guidelines, or a code of conduct if you have one.
 
 ---
 
