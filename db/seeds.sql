@@ -1,5 +1,10 @@
 -- db/seeds.sql
 
+-- Clear existing data
+TRUNCATE TABLE employee RESTART IDENTITY CASCADE;
+TRUNCATE TABLE role RESTART IDENTITY CASCADE;
+TRUNCATE TABLE department RESTART IDENTITY CASCADE;
+
 -- 1. Insert Departments typical of a software development company
 INSERT INTO department (name) VALUES
   ('Engineering'),
