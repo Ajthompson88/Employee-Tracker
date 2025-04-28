@@ -7,7 +7,8 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node lib/queries.js",
     "dev": "nodemon lib/queries.js",
-    "seed": "psql -U postgres -d employee_db -f db/seed.sql"
+    "seed": "psql -U postgres -d employees_db -f db/seeds.sql",
+    "build": "psql -U postgres -d employees_db -f db/schema.sql"
   },
   "repository": {
     "type": "git",
